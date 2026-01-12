@@ -4,7 +4,6 @@ def getLastManStandingNumber(n, k):
         survivor = (survivor + k) % i
     return survivor + 1
 
-
 # Taking input from user
 n, k = map(int, input().split())
 
